@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* navbar */
+.header-container{
+    display: flex;
+    
+}
+ .logo-section{
+    border: 2px solid red;
+    width: 50%
+    
+}
+.logo-section img{
+    width: 94px;
+}
+.list-item-section {
+    width: 50%;
+    border: 2px solid green;
+}
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items a{
+    text-decoration: none;
+    font-size: 40px;
+
+}
